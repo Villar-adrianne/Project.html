@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Place</title>
+  <style>
+    body {
+      font-family: Arial, Sans-serif;
+      background-color: #fff8e7;
+      margin:0
+      padding:0
+    }
+    nav {
+      background-color: #d2691e;
+      padding:0
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin:0 18px;
+      font-weight: bold;
+    }
+    nav a hover {
+      text-decoration: underline;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #8b4513
+    }
+    form {
+      max-width="400px"
+      margin: auto;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 5px;
+      box-shadow:0 0 10px
+      rgba(0,0,0,0.1);
+    }
+    form input, form select, form textarea {
+      width="100px"
+      padding="10px"
+      margin-top="5px"
+      margin-bottom="15px"
+      border:1px solid #ccc;
+      border-radius: 5px;
+    }
+    input[type="submit"] {
+      background-color: green;
+      color: white;
+      padding:10px 20px;
+      border: none;
+      border-radius: 5px;
+    }
+  </style>
+  </head>
+  <body>
+    <nav>
+      <a href="Villar.html">Home</a>
+      <a href="Documentary.html">Documentary</a>
+      <a href="OrderPlace.html">Order Place</a>
+    </nav>
+    <center><h1>Order!</h1></center>
+    <form>
+      <fieldset>
+        <legend>Customer Information:</legend>
+        <input type="Text" name="Name:"><br><br>
+        <input type="Text" name="Address:"><br><br>
+        <input type="Text" name="Number:"><br><br>
+      </fieldset>
+      <fieldset>
+        <legend>Food Selection</legend>
+        <select name="food">
+        <option value="adobo">Adobo</option>
+        <option value="sinigang">Sinigang</option>
+        <option value="giniling">Giniling</option>
+        <option value="kare-kare">Kare-kare</option>
+        <option value="menudo">Menudo</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <legend>Drinks selection</legend>
+        <select type="drinks">
+        <option value="Ice tea">Ice tea</option>
+        <option value="Orange juice">Orange juice</option>
+        <option value="Strawberry juice">Strawberry juice</option>
+        <option value="mango juice">Mango juice</option>
+        <option value="Coke">Coke</option><br><br>
+      </select>
+      </fieldset>
+      <br>
+      <center>
+        <input type="Submit" value="BUY">
+      </center>
+    </form>
+    <br>
+    <fieldset>
+      <legend>Feedback</legend>
+      <textarea name="Feedback" rows="8"
+      cols="30" placeholder="Feedback!"></textarea>
+    </fieldset>
+    <fieldset>
+      <legend>Visit Us!</legend>
+      <input type="Text" value="phs 2, Green estate, philippines!"disabled>
+    </fieldset>
+    <fieldset>
+      <legend>Contact us!</legend>
+      <input type="text" value="09637106457" readonly>
+    </fieldset>
+    <center><h1>THANK YOU!</h1></center>
+        
+  </body>
+  </html>
