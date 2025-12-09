@@ -1,4 +1,8 @@
-
+   .foodpictures {
+       diaplay: flex;
+       justify-content: center;
+       gap: 20px;
+       margin: 20px 0;
     body {
       font-family: Arial, Sans-serif;
       background-color: #fff8e7;
