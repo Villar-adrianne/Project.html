@@ -1,8 +1,15 @@
    .foodpictures {
        diaplay: flex;
        justify-content: center;
+      align-items: start;
        gap: 20px;
+      flex-wrap: wrap;
        margin: 20px 0;
+   }
+foodpictures img {
+   width: 30%;
+   max-width: 150px;
+}
     body {
       font-family: Arial, Sans-serif;
       background-color: #fff8e7;
