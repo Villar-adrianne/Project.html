@@ -7,8 +7,9 @@
        margin: 20px 0;
    }
 .foodpictures img {
-   width: 30%;
-   max-width: 150px;
+   width: 200px;
+   height: auto;
+   object-fit: cover;
 }
     body {
       font-family: Arial, Sans-serif;
