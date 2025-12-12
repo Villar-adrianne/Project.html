@@ -7,9 +7,10 @@
        margin: 20px 0;
    }
 .foodpictures img {
-   width: 200px;
-   height: auto;
+   width: 100px;
+   height: 100px;
    object-fit: cover;
+   border-radius: 5px;
 }
     body {
       font-family: Arial, Sans-serif;
