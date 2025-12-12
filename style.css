@@ -6,7 +6,7 @@
       flex-wrap: wrap;
        margin: 20px 0;
    }
-foodpictures img {
+.foodpictures img. {
    width: 30%;
    max-width: 150px;
 }
