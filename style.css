@@ -1,4 +1,4 @@
-.video.con {
+.video-con {
    display: flex;
        justify-content: center;
       align-items: start;
@@ -6,7 +6,7 @@
       max-width: 720px;
        margin: 20px auto;
 }
-.video.con iframe {
+.video-con iframe {
    width: 230px;
    height: 130px;
    border-radius: 10px;
