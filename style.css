@@ -1,4 +1,19 @@
-   .foodpictures {
+.video.con {
+   display: flex;
+       justify-content: center;
+      align-items: start;
+       gap: 20px;
+      flex-wrap: wrap;
+       margin: 20px 0;
+}
+.video.con iframe {
+   width: 230px;
+   height: 230px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.foodpictures {
        display: flex;
        justify-content: center;
       align-items: start;
