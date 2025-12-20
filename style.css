@@ -3,13 +3,12 @@
        justify-content: center;
       align-items: start;
        gap: 20px;
-      flex-wrap: wrap;
-       margin: 20px 0;
+      max-width: 720px;
+       margin: 20px auto;
 }
 .video.con iframe {
    width: 230px;
-   height: 230px;
-   object-fit: cover;
+   height: 130px;
    border-radius: 10px;
 }
 
