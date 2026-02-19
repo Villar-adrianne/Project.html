@@ -16,7 +16,7 @@
       justify-content: space-between;
       background-color: #d2691e;
       padding:10px 0;
-      text-align: center;
+      
     }
     nav a {
       flex: 1;
@@ -24,15 +24,15 @@
       display: inline-block;
       color: brown;
       text-decoration: none;
-      margin:0px 15px;
-      padding:10px 0px;
+      margin:0 15px;
+      padding:10px 0;
       font-weight: bold;
       border-radius: 5px;
       font-weight: bold;
+      text-align: center;
     }
     nav a:hover {
       background-color: #e5a600;
-      text-decoration: underline;
       color: #fff;
     }
     h1, h2 {
@@ -40,28 +40,27 @@
       color: #8b4513
     }
     form {
-      max-width="400px"
-      margin: auto;
+      max-width: 600px;
+      margin: 20px auto;
       padding: 20px;
       background: #ffffff;
       border-radius: 5px;
-      box-shadow:0 0 10px
-      rgba(0,0,0,0.1);
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
     }
     form input, form select, form textarea {
-      width="100px"
-      padding="10px"
-      margin-top="5px"
-      margin-bottom="15px"
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
       border:1px solid #ccc;
       border-radius: 5px;
     }
-    input[type="submit"] {
+    button {
       background-color: green;
       color: white;
       padding:10px 20px;
       border: none;
       border-radius: 5px;
+      cursor: pointer;
     }
   </style>
   </head>
@@ -71,7 +70,7 @@
       <a href="documentary.html">Documentary</a>
       <a href="orderplace.html">Order</a>
     </nav>
-    <center><h1>Order!</h1></center>
+    <h1>Order!</h1>
     <form>
       <fieldset>
         <legend>Customer Information:</legend>
@@ -110,7 +109,7 @@
       <textarea name="Feedback" rows="8"
       cols="30" placeholder="Feedback!"></textarea>
       <br> <center>
-       <input type="submit"><input>
+       <input type="submit">
       </center>
     </fieldset>
     <fieldset>
