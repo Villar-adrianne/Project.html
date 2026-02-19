@@ -1,3 +1,64 @@
+<style>
+    body {
+      font-family: Arial, Sans-serif;
+      background-color: #fff8e7;
+      margin:0;
+      padding:0;
+    }
+    nav {
+      display: flex;
+      justify-content: space-between;
+      background-color: #d2691e;
+      padding:10px 0;
+      
+    }
+    nav a {
+      flex: 1;
+      background-color: #f2b705;
+      display: inline-block;
+      color: brown;
+      text-decoration: none;
+      margin:0 15px;
+      padding:10px 0;
+      font-weight: bold;
+      border-radius: 5px;
+      font-weight: bold;
+      text-align: center;
+    }
+    nav a:hover {
+      background-color: #e5a600;
+      color: #fff;
+    }
+    h1, h2 {
+      text-align: center;
+      color: #8b4513
+    }
+    form {
+      max-width: 600px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #ffffff;
+      border-radius: 5px;
+      box-shadow:0 0 10px rgba(0,0,0,0.1);
+    }
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 8px 0 15px;
+      border:1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: green;
+      color: white;
+      padding:10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+
+
 .video-con {
    display: flex;
        justify-content: center;
