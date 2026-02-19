@@ -48,7 +48,16 @@
       border-radius: 10px;
         box-sizing: border-box;
     }
+
+   form textarea {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+   }
+
     button {
+        display: block;
+        margin: 15px auto;
       background-color: green;
       color: white;
       padding:10px 20px;
