@@ -7,21 +7,8 @@
     .custom-nav {
       background-color: #D2B48C;
       padding:10px 0;
-      
     }
-    .custom-nav .nav-link {
-      flex: 1;
-      background-color: #f2b705;
-      display: inline-block;
-      color: brown;
-      text-decoration: none;
-      margin:0 15px;
-      padding:10px 0;
-      font-weight: bold;
-      border-radius: 5px;
-      font-weight: bold;
-      text-align: center;
-    }
+
     .custom-nav .nav-link:hover {
       background-color: #e5a600;
       color: #fff;
