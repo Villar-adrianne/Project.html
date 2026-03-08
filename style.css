@@ -33,13 +33,13 @@
       color: #8b4513
     }
     form {
-      max-width: 600px;
-      margin: 20px auto;
-      padding: 20px;
-      background: #ffffff;
-      border-radius: 5px;
-      box-shadow:0 0 10px rgba(0,0,0,0.1);
-    }
+background: #ffffff;
+max-width: 600px;
+margin: 40px auto;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
     form input, form select, form textarea {
       width: 100%;
       padding: 10px;
