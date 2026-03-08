@@ -11,7 +11,7 @@
       padding:10px 0;
       
     }
-    .custom-nav .navlink {
+    .custom-nav .nav-link {
       flex: 1;
       background-color: #f2b705;
       display: inline-block;
@@ -24,7 +24,7 @@
       font-weight: bold;
       text-align: center;
     }
-    .custom-nav .navlink:hover {
+    .custom-nav .nav-link:hover {
       background-color: #e5a600;
       color: #fff;
     }
