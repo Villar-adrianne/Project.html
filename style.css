@@ -24,7 +24,7 @@
       font-weight: bold;
       text-align: center;
     }
-    .nav bar.navlink:hover {
+    .navbar.navlink:hover {
       background-color: #e5a600;
       color: #fff;
     }
