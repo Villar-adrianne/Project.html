@@ -4,14 +4,14 @@
       margin:0;
       padding:0;
     }
-    .navbar {
+    .custom-nav {
       display: flex;
       justify-content: space-between;
       background-color: #d2691e;
       padding:10px 0;
       
     }
-    .navbar .navlink {
+    .custom-nav .navlink {
       flex: 1;
       background-color: #f2b705;
       display: inline-block;
@@ -24,7 +24,7 @@
       font-weight: bold;
       text-align: center;
     }
-    .navbar.navlink:hover {
+    .custom-nav .navlink:hover {
       background-color: #e5a600;
       color: #fff;
     }
