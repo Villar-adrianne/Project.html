@@ -4,14 +4,14 @@
       margin:0;
       padding:0;
     }
-    nav {
+    .navbar {
       display: flex;
       justify-content: space-between;
       background-color: #d2691e;
       padding:10px 0;
       
     }
-    nav a {
+    .navbar .navlink {
       flex: 1;
       background-color: #f2b705;
       display: inline-block;
@@ -24,7 +24,7 @@
       font-weight: bold;
       text-align: center;
     }
-    nav a:hover {
+    .nav bar.navlink:hover {
       background-color: #e5a600;
       color: #fff;
     }
