@@ -37,32 +37,44 @@
 </div>
     
     <form>
-      <fieldset>
-        <legend>Customer Information:</legend>
-        <input type="Text" name="Name:" value="Name:">
-        <input type="Text" name="Address:" value="Address:">
-        <input type="Text" name="Number:" value="Number:">
-      </fieldset>
-      <fieldset>
-        <legend>Food Selection</legend>
-        <select name="food">
-        <option value="adobo">Adobo</option>
-        <option value="sinigang">Sinigang</option>
-        <option value="giniling">Giniling</option>
-        <option value="kare-kare">Kare-kare</option>
-        <option value="menudo">Menudo</option>
-        </select>
-      </fieldset>
-      <fieldset>
-        <legend>Drinks selection</legend>
-        <select name="drinks">
-        <option value="Ice tea">Ice tea</option>
-        <option value="Orange juice">Orange juice</option>
-        <option value="Strawberry juice">Strawberry juice</option>
-        <option value="mango juice">Mango juice</option>
-        <option value="Coke">Coke</option><br><br>
-      </select>
-      </fieldset>
+
+<h5>Customer Information</h5>
+
+<div class="mb-3">
+<label class="form-label">Name</label>
+<input type="text" class="form-control" placeholder="Enter your name">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Address</label>
+<input type="text" class="form-control" placeholder="Enter your address">
+</div>
+
+<div class="mb-3">
+<label class="form-label">Number</label>
+<input type="text" class="form-control" placeholder="Enter your phone number">
+</div>
+
+<h5>Food Selection</h5>
+
+<select class="form-control mb-3">
+<option>Adobo</option>
+<option>Sinigang</option>
+<option>Giniling</option>
+<option>Kare-kare</option>
+<option>Menudo</option>
+</select>
+
+<h5>Drinks Selection</h5>
+
+<select class="form-control mb-3">
+<option>Ice Tea</option>
+<option>Orange Juice</option>
+<option>Strawberry Juice</option>
+<option>Mango Juice</option>
+<option>Coke</option>
+</select>
+    
       <br>
       <center>
         <button onclick="alert('Thank You For Buying!')">BUY</button>
