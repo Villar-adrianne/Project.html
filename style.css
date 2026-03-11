@@ -29,6 +29,7 @@ border-radius: 10px;
     .custom-nav {
       background-color: #D2B48C;
       padding:10px 0;
+      width: 100%;
     }
 
    .navbar-brand{
@@ -40,6 +41,7 @@ border-radius: 10px;
    display: flex;
    align-items: center;
    justify-content: space-between;
+    max-width: 100%;
    }
 
    .navbar-toggler {
