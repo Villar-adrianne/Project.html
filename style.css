@@ -1,4 +1,12 @@
 
+.food-img {
+max-width: 450px;
+display: block;
+margin: auto;
+border-radius: 10px;
+}
+
+
 .doc-img {
 width: 300px;
 max-width: 90%;
