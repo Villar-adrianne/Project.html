@@ -9,6 +9,17 @@
       padding:10px 0;
     }
 
+   .navbar-brand{
+   font-weight:bold;
+   color:#3d2b1f;
+   }
+
+   .custom-nav .container {
+   display:flex;
+   align-items:center;
+   justify-content:space-between;
+   }
+
     .custom-nav .nav-link{
   color: brown;
   font-weight: bold;
