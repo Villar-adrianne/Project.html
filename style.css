@@ -1,4 +1,13 @@
-  .img-fluid {
+
+.doc-img {
+width: 300px;
+max-width: 90%;
+display: block;
+margin: 20px auto;
+border-radius: 10px;
+}
+
+.img-fluid {
       max-width: 350px;
       width: 100%;
       display: block; 
