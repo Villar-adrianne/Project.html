@@ -56,9 +56,10 @@ border-radius: 10px;
       background-color: #e5a600;
       color: #fff;
     }
+
     h1, h2 {
       text-align: center;
-      color: #8b4513
+      color: #8b4513 !important;
     }
 
 fieldset{
